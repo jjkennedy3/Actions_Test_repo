@@ -37,7 +37,7 @@ jobs:
       # Runs a single command using the runners shell
         with:
          ruby-version: ${{ matrix.ruby }}
-      - run: ruby Generic_ruby_file.rb
+      - run: ruby GenricTestFile.rb
           
       - name: Run a one-line script
         run: echo Hello, world!
