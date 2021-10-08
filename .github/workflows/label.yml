@@ -21,6 +21,3 @@ jobs:
       with:
         repo-token: "${{ secrets.GITHUB_TOKEN }}"
         
-    test_label:
-    - any: ['*/*']
-       
